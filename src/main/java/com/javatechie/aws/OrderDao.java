@@ -15,6 +15,7 @@ public class OrderDao {
         return Stream.of(
                 new Order(101,"Mobile",1,30000),
                 new Order(101,"Mobile",1,30000),
+                new Order(101,"Emman",10,1300000),
                 new Order(101,"Mobile",1,30000))
                 .collect(Collectors.toList());
     }
